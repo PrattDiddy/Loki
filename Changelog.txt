@@ -1,0 +1,21 @@
+Modular Menu System Changelog
+==============================
+
+Version 1.3 / 2016-04-05
+* New BP node SetTextLine to set the text of a text element after adding it to a menu
+* Allow to override theme line height per button via new parameter for AddButton[s] BP nodes
+* Added ID parameter for Messages Boxes, so that you can identify pressed dialog buttons by that ID
+* Added parameter to vertically align a custom widget when adding it to a menu
+* Fixed bug: Now you can add custom widgets correctly to a menu
+* Fixed bug: Items can be selected again in text scoll boxes (after update to UE 4.11)
+
+Version 1.2 / 2016-03-17
+* Updated for UE 4.11
+
+Version 1.1 / 2016-03-08
+* Added new node "SetThemeSounds" (for Buttons, Checkbox, Combo Boxes)
+* Added short delay at BeginPlay in sample project for correct viewport size calculation in standalone mode
+* Fixed Bug: Menu did not remember size after hiding and showing again
+
+Version 1.0 / 2016-03-02
+* First Public Release
